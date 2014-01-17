@@ -1,0 +1,19 @@
+# Exclude vim temp files
+*.swp
+*.swo
+# Databases
+dump
+data
+*.sqlite
+# Exclude OS X folder attributes
+.DS_Store
+# Exclude npm packages
+node_modules
+bower_components
+# Exclude REDIS dumps
+dump.rdb
+Vagrantfile
+.vagrant
+sphinx.conf
+# phonegap
+phonegap
