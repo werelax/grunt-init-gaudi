@@ -1,0 +1,2 @@
+<input type="radio" name="{{name}}" {{#if active}} checked {{/if}}>
+<button class="topcoat-tab-bar__button">{{title}}</button>

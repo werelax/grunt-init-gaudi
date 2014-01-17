@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="assets/css/transitions.css" title="" type="" />
+    <link rel="stylesheet" href="assets/css/style.css" title="" type="" />
+    <link rel="stylesheet" href="assets/css/font-awesome.css" title="" type="" />
+    <link rel="stylesheet" href="assets/css/appstyle.css" title="" type="" />
+    <title>Index</title>
+  </head>
+
+  <body>
+
+    <script type="text/javascript">
+      document.addEventListener("deviceready", function() {
+          window.deviceReady = true;
+      }, false);
+    </script>
+
+    <script type="text/javascript" src="cordova.js"></script>
+
+    <!--
+
+    <script data-main="js/config" src="/bower_components/requirejs/require.js"></script>
+    <script>
+      require(["app"], function() {});
+    </script>
+
+    -->
+
+    <script data-main="http://192.168.1.39:3000/js/config" src="http://192.168.1.39:3000/bower_components/requirejs/require.js"></script>
+    <script>
+      require(["http://192.168.1.39:3000/js/app.js"], function() {});
+    </script>
+
+  </body>
+</html>
